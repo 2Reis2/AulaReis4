@@ -34,6 +34,9 @@ public class Mainclasse {
 		     );
 				
 				break;
+				
+		case 2:
+			)
 		}
 		
 	Nome = mensagem.solicitarEntrada("Digite seu Nome");
