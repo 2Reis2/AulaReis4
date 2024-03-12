@@ -1,6 +1,7 @@
 package model;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class Banco {
 	private String nome_banco;
@@ -10,7 +11,7 @@ public class Banco {
 	
 	public Banco(String nome) {
 		this.nome_banco = nome;
-		this.certificado_autorizacao = UUID.random().toString();
+		this.certificado_autorizacao = UUID.randomUUID().toString();
 	}
 	
 
@@ -23,12 +24,12 @@ public class Banco {
 	
 	public String getBanco( ) {
 		return (
-		"\nNome do banco:"	+ this.nome_banco
-		"\nCertificado:"	+ this.certificado_autorizacao
+		"\nNome do banco:" + this.nome_banco +
+		"\nCertificado:" + this.certificado_autorizacao
+				
+		);		
 				
 				
-				
-				)
 	}
 }
 
